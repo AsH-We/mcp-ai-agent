@@ -1,0 +1,10 @@
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+fastmcp==0.4.1
+mcp==1.2.0
+langgraph==0.2.60
+langchain==0.3.14
+langchain-core==0.3.30
+pydantic==2.10.5
+httpx==0.28.1
+aiosqlite==0.20.0
