@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  agent-app:
+    build: .
+    container_name: mcp-agent
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data  # Персистентность SQLite
+    environment:
+      - DB_PATH=/app/data/app.db
